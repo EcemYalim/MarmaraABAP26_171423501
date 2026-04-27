@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_HVC_171423501'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_HVC_171423501'
+  }
+}
+define service ZUI_HVC_171423501_O4 provider contracts odata_v4_ui {
+  expose ZC_HVC_171423501;
+}
